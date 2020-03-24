@@ -1,6 +1,16 @@
 # AndroidAppDigitRecognizer
 An Android app which recognized handwritten digits with the help of a Neural Network.
 
+## Release History
+*   1.0.0
+    *   Release of first version
+
+## Usage
+1. Download the `.apk` under Releases. 
+2. Install it on you Smartphone
+3. Open it and use it :)
+
+
 ## Meta
 
 <!--Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com-->
