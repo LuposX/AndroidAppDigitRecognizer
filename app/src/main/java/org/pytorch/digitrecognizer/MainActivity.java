@@ -1,7 +1,6 @@
 package org.pytorch.digitrecognizer;
 
 import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -80,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
       Module module = null;
 
       try {
-          module = Module.load(assetFilePath(this, "cnn_inv_noise.pt"));
+          module = Module.load(assetFilePath(this, "cnn_inv_noise_v2.pt"));
       } catch (IOException e) {
           Log.e("PytorchDigitRecognizer", "Error reading assets", e);
           finish();
