@@ -184,7 +184,7 @@ lr = 0.001
 batch_size = 128*4
 ndf = 16
 
-model = CNN.load_from_checkpoint("mnist_noise_epoch=14.ckpt")
+model = CNN.load_from_checkpoint("mnist_noise_epoch=19.ckpt")
 model.eval()
 example = torch.rand(1, 1, 28, 28)
 traced_script_module = torch.jit.trace(model, example)
