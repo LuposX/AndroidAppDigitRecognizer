@@ -1,5 +1,7 @@
 # AndroidAppDigitRecognizer
-An Android app which recognized handwritten digits with the help of a Neural Network.
+> An Android app which recognized handwritten digits with the help of a Neural Network.
+
+![header](image.png)
 
 ## Release History
 *   1.0.0
