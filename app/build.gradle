@@ -1,10 +1,22 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.chaquo.python'        // Add this line
 
 repositories {
     jcenter()
 }
 
 android {
+    flavorDimensions "abi"
+    productFlavors {
+        arm {
+            dimension "abi"
+            ndk { abiFilters "armeabi-v7a" }
+        }
+        x86 {
+            dimension "abi"
+            ndk { abiFilters "x86" }
+        }
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -22,6 +34,16 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+
+        python {
+            pip {
+                install "Pillow"
+            }
+        }
+
     }
     buildTypes {
         release {
