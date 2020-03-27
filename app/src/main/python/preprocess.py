@@ -4,7 +4,7 @@ import os
 
 # preprocess the image
 def save_image(datadir):
-    image = Image.open(datadir + "/photo.png").convert('L').point(lambda x: 0 if x<170 else 1)
+    image = Image.open(datadir + "/photo.png").convert('L').point(lambda x: 0 if x<150 else 1)
 
     image = image.resize((128, 128))
 
@@ -23,4 +23,4 @@ def save_image(datadir):
     # enhance_contrast = ImageEnhance.Contrast(enhance).enhance(2)
 
     # save the image
-    image_crop.convert('L').save(datadir + "/out.png")
+    image_crop.point(lambda x: x* 255).save(datadir + "/out.png")
