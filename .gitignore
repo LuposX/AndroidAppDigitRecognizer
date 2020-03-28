@@ -12,4 +12,12 @@
 /captures
 .externalNativeBuild
 trace_model.py
-mnist_noise_epoch=19.chkpt
+mnist_noise_epoch=19.ckpt
+
+local.properties
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
