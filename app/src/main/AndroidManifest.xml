@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/digit"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="org.pytorch.digitrecognizer.MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".info">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

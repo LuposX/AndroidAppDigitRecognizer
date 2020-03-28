@@ -16,11 +16,11 @@ def save_image(datadir):
     top = (height - new_size)/2
     right = (width + new_size)/2
     bottom = (height + new_size)/2
-    image_crop = image.crop((left, top, right, bottom))
+    image = image.crop((left, top, right, bottom))
 
     # enhance the image
     # enhance = ImageEnhance.Sharpness(image_crop).enhance(2)
     # enhance_contrast = ImageEnhance.Contrast(enhance).enhance(2)
 
     # save the image
-    image_crop.point(lambda x: x* 255).save(datadir + "/out.png")
+    image.point(lambda x: x* 255).save(datadir + "/out.png")
