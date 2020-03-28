@@ -11,3 +11,6 @@
 /build
 /captures
 .externalNativeBuild
+
+trace_model.py
+mnist_noise_epoch=19.chkpt
