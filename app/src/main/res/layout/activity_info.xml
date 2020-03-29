@@ -34,7 +34,7 @@
         android:layout_width="259dp"
         android:layout_height="114dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Make sure that the digit is well visible like on the picture. Be carefull: Dont add to much light to the image, dont have shadows on the pictures, with weird angles"
+        android:text="Make sure that the digit is well visible like on the picture. Be carefull: Dont add to much light to the image, dont have shadows on the pictures, dont add weird angles"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

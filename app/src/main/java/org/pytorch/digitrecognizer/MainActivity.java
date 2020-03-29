@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
       Module module = null;
 
       try {
-          module = Module.load(assetFilePath(this, "cnn_inv_noise_v2.pt"));
+          module = Module.load(assetFilePath(this, "cnn_inv_noise.pt"));
       } catch (IOException e) {
           Log.e("PytorchDigitRecognizer", "Error reading assets", e);
           finish();
