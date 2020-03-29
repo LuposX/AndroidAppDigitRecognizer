@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.pytorch.digitrecognizer">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/digit"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/digit"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="org.pytorch.digitrecognizer.MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".info">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
