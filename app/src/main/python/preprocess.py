@@ -1,10 +1,10 @@
-from PIL import Image
-from PIL import ImageEnhance
-import os
+from PIL import Image, ImageOps
 
 # preprocess the image
 def save_image(datadir):
-    image = Image.open(datadir + "/photo.png").convert('L').point(lambda x: 0 if x<150 else 1)
+    image = Image.open(datadir + "/photo.png").convert('L')
+    image = ImageOps.autocontrast(image)
+    image = image.point(lambda x: 0 if x<130 else 1)
 
     image = image.resize((128, 128))
 
