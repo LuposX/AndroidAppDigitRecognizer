@@ -6,6 +6,8 @@
 
 ![header](image.png)
 
+For more on the models see [here](https://www.comet.com/luposx/mnist-classifier/view/new/panels).
+
 ## Release History
 *   1.0.0
     *   Release of first version
