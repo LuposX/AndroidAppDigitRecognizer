@@ -1,39 +1,35 @@
 # AndroidAppDigitRecognizer
-> An Android app which recognized handwritten digits with the help of a Neural Network.
+
+> An Android app that recognizes handwritten digits using a Neural Network.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Codacy Badge][codacy-badge]][codacy-url]
 
+This is a simple Android application that allows you to take a photo of handwritten digits and have them recognized by a neural network model.
+
+The goal of this app was not to build the most accurate digit recognizer—there are better solutions available—but rather to **experiment with neural networks**, explore different architectures and techniques, and then use the best-performing model in a working Android app.
+
+You can find more information about the models I trained, including their performance and code, here:
+👉 [Comet ML Dashboard](https://www.comet.com/luposx/mnist-classifier/view/new/panels)
+
 ![header](image.png)
 
-For more on the models see [here](https://www.comet.com/luposx/mnist-classifier/view/new/panels).
+---
 
-## Release History
-*   1.0.0
-    *   Release of first version
+## 📲 Usage
 
-## Usage
-1. Download the `.apk` under Releases. 
-2. Install it on you Smartphone
-3. Open it and use it :)
+1. Download the `.apk` file from the **Releases** section.
+2. Install it on your smartphone.
+3. Open the app and start recognizing digits!
 
+---
 
-## Meta
+## 📄 License
 
-<!--Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com-->
+Distributed under the MIT license.
+See [`LICENSE`](https://github.com/LuposX/BostonHousingPrediction/blob/master/LICENSE) for more information.
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
-
-[LICENSE Digit-Recognition](https://github.com/LuposX/BostonHousingPrediction/blob/master/LICENSE)
-
-## Contributing
-
-1.  Fork it (<https://github.com/LuposX/AndroidAppDigitRecognizer/fork>)
-2.  Create your feature branch (`git checkout -b feature/fooBar`)
-3.  Commit your changes (`git commit -am 'Add some fooBar'`)
-4.  Push to the branch (`git push origin feature/fooBar`)
-5.  Create a new Pull Request
 
 [license-url]: https://github.com/LuposX/AndroidAppDigitRecognizer/blob/master/LICENSE
 [codacy-badge]: https://api.codacy.com/project/badge/Grade/83a9aefbc07c469cb115e69ba3a23208
-[codacy-url]:https://www.codacy.com/manual/LuposX/AndroidAppDigitRecognizer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LuposX/AndroidAppDigitRecognizer&amp;utm_campaign=Badge_Grade
+[codacy-url]: https://www.codacy.com/manual/LuposX/AndroidAppDigitRecognizer?utm_source=github.com&utm_medium=referral&utm_content=LuposX/AndroidAppDigitRecognizer&utm_campaign=Badge_Grade
